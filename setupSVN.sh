@@ -15,7 +15,7 @@ sudo a2enmod dav
 sudo a2enmod dav_svn
 sudo service apache2 restart
 
-sudo cp /root/ubuntu-svn-script/dav_svn.conf /etc/apache2/mods-enabled/dav_svn.conf
+sudo cp /root/svn_ubuntu/dav_svn.conf /etc/apache2/mods-enabled/dav_svn.conf
 
 sudo mkdir $SVN_DIR
 sudo svnadmin create ${SVN_DIR}/repository
